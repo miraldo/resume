@@ -1,18 +1,14 @@
 {
+  "meta": { "theme": "macchiato" },
   "basics": {
     "name": "Miraldo Ramos",
-    "label": "Technical - Information Systems",
+    "label": "Software Engineer",
+    "picture": "https://avatars.githubusercontent.com/u/12704299?v=4",
     "summary":
-      "...",
+      "Start a new position, personal and professional focus in DevOps. Currently learning to work with Harness.io and Appdynamics. Strong problem-solving and communication skills, able to work effectively in a team. ",
     "email": "miraldo.ramos@gmail.com",
-    "location": { "city": "Lisbon", "countryCode": "PT" },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "miraldo",
-        "url": "https://github.com/miraldo"
-      }
-    ]
+    "phone": "(+351) 96 617 44 65",
+    "location": { "city": "Lisbon", "countryCode": "PT" }
   },
   "education": [
     {
@@ -33,7 +29,7 @@
   "skills": [
     {
       "name": "Tibco suite of Products",
-      "keywords": ["BusinessWorks (5.x,6,x)", "Rendevous", "EMS","Adapters (Files, Database, Siebel, MQ)", "Hawk", "TEA"]
+      "keywords": ["BusinessWorks (5.x,6,x)", "Rendezvous", "Enterprise Message Service","Adapters (Files, Database, Siebel)", "Hawk", "Administrator/Enterprise Administrator"]
     },
     {
       "name": "Experience",
@@ -41,22 +37,69 @@
     },
     { 
       "name": "Technologies", 
-      "keywords": ["python", "java", "Ansible", "Bach"] 
+      "keywords": ["Python", "Java", "Ansible", "Bash"] 
     },
     { 
       "name": "knowledge", 
-      "keywords": ["TCP/IP", "SSH"] 
-    }             
+      "keywords": ["TCP/IP", "SSH","Git","Shell script","CA Wily Introscope","AppDynamics","Cloud infrastructure","Security best practices","CI/CD pipelines"] 
+    },
+    { 
+      "name": "DevOps", 
+      "keywords": ["Ansible", "Jenkins","GitLab CI/CD", "Azure DevOps","Nexus", "Maven","Terraform","Kubernetes","Docker"]
+    },
+    { 
+      "name": "Comunications", 
+      "keywords": ["Team spirit", "Ability to adapt to multicultural environments","Good ability to cope with stressful situation", "Customer oriented"]
+    }
   ],
+  "languages": [
+    {
+      "language": "Portugese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Independent User"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basic user"
+    }
+  ],
+  
+  "interests": [
+  {
+    "name": "Sport",
+    "keywords": [ "Hiking","Running", "100 Burpees a day" ]
+  },
+  {
+    "name": "Reading",
+    "keywords": [ "SRE - Site Reliability Enginneering" ]
+  } 
+  ],
+  
   "work": [
     {
-      "endDate": "2021",
+      "startDate": "2021-09-20",
+      "position": "DevOps",
+      "company": "Polarising",
+      "website": "https://polarising.com/",
+      "summary": "",
+      "highlights": [
+        "Configured CI/CD pipelines using Harness.io, Jenkins, and Azure DevOps to automate the build, test, and deployment processes.",
+        "Implemented Terraform scripts to automate the provisioning and configuration of infrastructure in Azure.",
+        "Deployed and managed applications using Docker containers and orchestrated them using Kubernetes.",
+        "Collaborated with development teams to define and implement best practices for cloud-based systems.",
+        "Worked closely with development teams to ensure smooth delivery of software products to production."
+      ]
+    },
+    {
       "startDate": "2003",
+      "endDate": "2021-09-20",
       "position": "Tibco Administrator",
-      "company": "Caixa Geral de Depósitos",
+      "company": "Caixa Geral de Depósitos ( CGD )",
       "website": "https://www.cgd.pt",
-      "summary":
-        ".",
+      "summary": "I was a TIBCO Software stack administrator at CGD, and assumed that role for the last 15 years, always trying to respond to the company's architectural challenges. I worked together with CGDs architecture and development team to help overcome their challenges.",
       "highlights": [
         "Management and Support on Business integration processes platform of CGD solutions based on Tibco Software",
         "Support to all environments:  Developing, Testing, Quality Control and Production",
@@ -65,7 +108,7 @@
         "Software Setup Installation and Management",
         "Performance Tuning, Capacity Planning, Fault Tolerance and High Availability Design/implementation and troubleshooting.",
         "Ticket resolution team",
-        "Support Team after hours"
+        "Provide 24x7 third-level support"
       ]
     }
   ]
